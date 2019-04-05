@@ -29,7 +29,7 @@ npm run serve
 
 See Vuetify instructions for
 [Importing components](https://vuetifyjs.com/en/framework/a-la-carte#importing-components).
-I'm justing using <v-app> and <v-btn>. This also works.
+I'm justing using \<v-app> and \<v-btn>. This also works.
 
 **main.js**:
 ```javascript
@@ -52,7 +52,7 @@ import 'vuetify/dist/vuetify.min.css'
 
 See Vuetify instructions for
 [Importing components](https://vuetifyjs.com/en/framework/a-la-carte#importing-components).
-I'm justing using <v-app> and <v-btn>. This also works.
+I'm justing using \<v-app> and \<v-btn>. This also works.
 
 **main.js**:
 ```javascript
@@ -67,7 +67,7 @@ import 'vuetify/dist/vuetify.min.css'
 
 See Vuetify instructions for
 [Importing components](https://vuetifyjs.com/en/framework/a-la-carte#importing-components).
-I'm justing using <v-app> and <v-btn>. This _**does not work**_. No imports
+I'm justing using \<v-app> and \<v-btn>. This _**does not work**_. No imports
 in **main.js**. The import statements are all in **HelloWorld.vue**.
 
 **HelloWorld.vue**:

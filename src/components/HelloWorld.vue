@@ -12,7 +12,7 @@
 </template>
 
 <script>
-  // Method 4: import in .vue file (does not work)
+  // Method 4: import components in .vue file (does not work)
   import {
       VApp,
       VBtn
@@ -27,5 +27,7 @@
 </script>
 
 <style>
+
+  @import '../../node_modules/vuetify/dist/vuetify.min.css';
 
 </style>

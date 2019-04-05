@@ -4,7 +4,7 @@ import App from './App.vue'
 // Method 1: default, using plugin (works after running 'vue add vuetify')
 // import './plugins/vuetify'
 
-// Method 2: only specific components in main.js (works, H2 style is missing)
+// Method 2: only specific components in main.js (works, import vuetify.css)
 // import Vuetify, {
 //   VApp, // required
 //   VBtn
@@ -17,12 +17,16 @@ import App from './App.vue'
 //   }
 // })
 
-// Method 3: vuetify-loader (works, H2 style is missing)
-import Vuetify from 'vuetify/lib'
+// Method 3: vuetify-loader (works, import vuetify.css)
+// import Vuetify from 'vuetify/lib'
+//
+// Vue.use(Vuetify)
+//
+// import 'vuetify/dist/vuetify.min.css'
 
-Vue.use(Vuetify)
+// Method 4: import components in HelloWorld.vue (does not work)
 
-// Method 4: (components imported in HelloWorld.vue, does not work)
+
 
 Vue.config.productionTip = false
 

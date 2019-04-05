@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-// Method 1: default, using plugin (works)
+// Method 1: default, using plugin (works after running 'vue add vuetify')
 // import './plugins/vuetify'
 
 // Method 2: only specific components in main.js (works, H2 style is missing)
@@ -18,9 +18,9 @@ import App from './App.vue'
 // })
 
 // Method 3: vuetify-loader (works, H2 style is missing)
-// import Vuetify from 'vuetify/lib'
-//
-// Vue.use(Vuetify)
+import Vuetify from 'vuetify/lib'
+
+Vue.use(Vuetify)
 
 // Method 4: (components imported in HelloWorld.vue, does not work)
 
